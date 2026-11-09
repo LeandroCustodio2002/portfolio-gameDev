@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const isProd = process.env.NODE_ENV === "production";
-const basePath = isProd ? "/portifolio-gameDev" : "";
+const basePath = isProd ? "/portfolio-gameDev" : "";
 
 const nextConfig: NextConfig = {
   output: "export",
